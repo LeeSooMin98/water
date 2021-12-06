@@ -1,5 +1,11 @@
 from tkinter import *
 
+text = '';
+
+def btnClicked():
+    grobal text
+    myText = 
+
 window = Tk()
 window.title("My Calculator")
 display = Entry(window, width=33, bg="yellow")
@@ -10,6 +16,8 @@ button_list =[
 '4','5','6','*','',
 '1','2','3','-','',
 '0','.','=','+','']
+
+btns = []
 
 row_index=1
 col_index=0
