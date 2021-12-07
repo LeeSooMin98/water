@@ -19,6 +19,6 @@ while (True):
     data2 = row[1]
     data3 = row[2]
     data4 = row[3]
-    print("%5s     %15s     %20s     %d"  %  (data1, data2, data3, data4))
+    print("%5s     %15s     %20s     %d"  %  (data1, data2, data3, data4))#s는 스트링 글자 뜻함
     
 conn.close()
